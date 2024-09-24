@@ -1,10 +1,6 @@
 ### Health Management APP
 from dotenv import load_dotenv
-import vertexai
-from vertexai.generative_models import GenerativeModel
 
-# TODO (developer): update project_id
-vertexai.init(project=243527177818, location="us-central1")
 
 load_dotenv() ## load all the environment variables
 
